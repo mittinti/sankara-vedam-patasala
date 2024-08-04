@@ -25,7 +25,8 @@ class SimpleFooter extends React.Component {
             <Row className=" row-grid align-items-center mb-5">
               <Col lg="6">
                 <h3 className=" text-primary font-weight-light mb-2">
-                  Thank you for supporting us!
+                ధర్మ ఏవ హతోహంతి, ధర్మో రక్షతి రక్షితః ||
+                తస్మాత్‌ ధర్మో న హంతవ్యో, మానో ధర్మోహతోవధీత్‌ ||
                 </h3>
                 <h4 className=" mb-0 font-weight-light">
                   Let's get in touch on any of these platforms.

@@ -28,58 +28,19 @@ class Hero extends React.Component {
               <span className="span-100" />
             </div>
             <Container className="shape-container d-flex align-items-center py-lg">
-              <div className="col px-0">
+              <div className="col px-0 main-hero-image">
                 <Row className="align-items-center justify-content-center">
                   <Col className="text-center" lg="6">
                     <img
                       alt="..."
                       className="img-fluid"
-                      src={require("assets/img/brand/argon-react-white.png")}
-                      style={{ width: "200px" }}
+                      src={require("assets/img/shankara/main.jpg")}
+                      style={{ width: "800px" }}
                     />
-                    <p className="lead text-white">
-                      A beautiful Design System for Bootstrap 4. It's Free and
-                      Open Source.
+                    <p className="lead text-white ntr-font">
+                    <div>సదాశివ సమారంభాం - శంకరాచార్య మధ్యమాం</div>
+                    <div>అస్మదాచార్య పర్యంతాం - వందే గురు పరంపరాం</div>
                     </p>
-                    <div className="btn-wrapper mt-5">
-                      <Button
-                        className="btn-white btn-icon mb-3 mb-sm-0"
-                        color="default"
-                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
-                        size="lg"
-                      >
-                        <span className="btn-inner--icon mr-1">
-                          <i className="ni ni-cloud-download-95" />
-                        </span>
-                        <span className="btn-inner--text">Download React</span>
-                      </Button>{" "}
-                      <Button
-                        className="btn-icon mb-3 mb-sm-0"
-                        color="github"
-                        href="https://github.com/creativetimofficial/argon-design-system-react"
-                        size="lg"
-                        target="_blank"
-                      >
-                        <span className="btn-inner--icon mr-1">
-                          <i className="fa fa-github" />
-                        </span>
-                        <span className="btn-inner--text">
-                          <span className="text-warning mr-1">Star us</span>
-                          on Github
-                        </span>
-                      </Button>
-                    </div>
-                    <div className="mt-5">
-                      <small className="text-white font-weight-bold mb-0 mr-2">
-                        *proudly coded by
-                      </small>
-                      <img
-                        alt="..."
-                        className="ml-1"
-                        style={{ height: "28px" }}
-                        src={require("assets/img/brand/creativetim-white-slim.png")}
-                      />
-                    </div>
                   </Col>
                 </Row>
               </div>

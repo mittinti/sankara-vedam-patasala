@@ -165,7 +165,7 @@ class DemoNavbar extends React.Component {
                       <span className="nav-link-inner--text">About</span>
                     </DropdownToggle>
                     <DropdownMenu>
-                      <DropdownItem to="/landing-page" tag={Link}>
+                      <DropdownItem to="/about" tag={Link}>
                         About School
                       </DropdownItem>
                       <DropdownItem to="/profile-page" tag={Link}>
@@ -182,7 +182,7 @@ class DemoNavbar extends React.Component {
                       <span className="nav-link-inner--text">Joining Class</span>
                     </DropdownToggle>
                     <DropdownMenu>
-                      <DropdownItem to="/landing-page" tag={Link}>
+                      <DropdownItem to="/about" tag={Link}>
                         Joining Process
                       </DropdownItem>
                       <DropdownItem to="/profile-page" tag={Link}>
@@ -203,7 +203,7 @@ class DemoNavbar extends React.Component {
                       <span className="nav-link-inner--text">Lessons</span>
                     </DropdownToggle>
                     <DropdownMenu>
-                      <DropdownItem to="/landing-page" tag={Link}>
+                      <DropdownItem to="/about" tag={Link}>
                         Learn Online
                       </DropdownItem>
                       <DropdownItem to="/profile-page" tag={Link}>
